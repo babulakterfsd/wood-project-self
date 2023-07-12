@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-josefin {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "Futura BdCn BT", sans-serif;
+  src: url("../../public/assets/fonts/futura/FUTURBCI.ttf") format("ttf");
+}
+
+.font-futura {
+  font-family: "Futura BdCn BT", sans-serif;
+  font-weight: bold;
+}
+
+.text-chocolate {
+  color: #1e0c06;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+/* responsive classes */
+.main-container {
+  @apply w-full mx-auto px-6 lg:px-2;
+}
+@media (min-width: 576px) {
+  .main-container {
+    max-width: 540px !important;
+  }
+}
+@media (min-width: 768px) {
+  .main-container {
+    max-width: 720px !important;
+  }
+}
+@media (min-width: 992px) {
+  .main-container {
+    max-width: 970px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .main-container {
+    max-width: 1170px !important;
+  }
+}
+@media (min-width: 1400px) {
+  .main-container {
+    max-width: 1320px !important;
+  }
+}

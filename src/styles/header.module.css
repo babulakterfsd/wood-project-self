@@ -1,0 +1,6 @@
+.headerbg {
+  background: url('../../public/assets/images/banner_desktop.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
