@@ -22,10 +22,5 @@
     "tailwindcss": "3.3.2",
     "typescript": "5.1.6"
   },
-  "devDependencies": {
-    "@hout-totaal/eslint-config-custom": "workspace:^",
-    "@t3-oss/env-core": "^0.6.0",
-    "prettier-plugin-tailwindcss": "^0.3.0",
-    "zod": "^3.21.4"
-  }
+  "devDependencies": {}
 }
