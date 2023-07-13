@@ -52,21 +52,21 @@ const Navbar = () => {
           <ul className="hidden lg:flex items-center lg:space-x-2 2xl:space-x-4">
             <span className="hidden lg:flex items-center space-x-20 border-b-[1px]">
               <li>
-                <Link href="#header" legacyBehavior>
+                <Link href="/" legacyBehavior>
                   <a className="text-white uppercase hover:pb-0.5 hover:border-b-2  font-josefin font-medium text-[1.1rem]">
                     Home
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="#features" legacyBehavior>
+                <Link href="#waarom" legacyBehavior>
                   <a className="text-white uppercase hover:pb-0.5 hover:border-b-2  font-josefin font-medium text-[1.1rem]">
                     Waarom?
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="#testimonial" legacyBehavior>
+                <Link href="#waardaes" legacyBehavior>
                   <a className="text-white uppercase hover:pb-0.5 hover:border-b-2  font-josefin font-medium text-[1.1rem]">
                     Waardes
                   </a>
@@ -86,21 +86,21 @@ const Navbar = () => {
             </li>
             <span className="hidden lg:flex items-center space-x-20 border-b-[1px]">
               <li>
-                <Link href="#pricing" legacyBehavior>
+                <Link href="#assortiment" legacyBehavior>
                   <a className="text-white uppercase hover:pb-0.5 hover:border-b-2  font-josefin font-medium text-[1.1rem]">
                     Assortiment
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="#blog" legacyBehavior>
+                <Link href="#getintouch" legacyBehavior>
                   <a className="text-white uppercase hover:pb-0.5 hover:border-b-2 h-2  font-josefin font-medium text-[1.1rem]">
                     Over Ons
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="#contact" legacyBehavior>
+                <Link href="#conctacteer" legacyBehavior>
                   <a className="text-white uppercase hover:pb-0.5 hover:border-b-2 mt-1  font-josefin font-medium text-[1.1rem]">
                     Contact
                   </a>
@@ -131,7 +131,7 @@ const Navbar = () => {
           >
             <ul className="w-full grid justify-center items-center space-y-6 text-white py-20">
               <li>
-                <Link href="#home" legacyBehavior>
+                <Link href="/" legacyBehavior>
                   <a
                     className="text-white uppercase  hover:border-b-2 "
                     id="hLink"
@@ -141,7 +141,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#features" legacyBehavior>
+                <Link href="#waarom" legacyBehavior>
                   <a
                     className="text-white uppercase hover:border-b-2 "
                     id="hLink"
@@ -151,7 +151,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#testimonial" legacyBehavior>
+                <Link href="#waardaes" legacyBehavior>
                   <a
                     className="text-white uppercase hover:border-b-2 "
                     id="hLink"
@@ -161,7 +161,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#pricing" legacyBehavior>
+                <Link href="#assortiment" legacyBehavior>
                   <a
                     className="text-white uppercase hover:border-b-2 "
                     id="hLink"
@@ -171,7 +171,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#blog" legacyBehavior>
+                <Link href="#getintouch" legacyBehavior>
                   <a
                     className="text-white uppercase hover:border-b-2 h-2 "
                     id="hLink"
@@ -181,7 +181,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#contact" legacyBehavior>
+                <Link href="#conctacteer" legacyBehavior>
                   <a
                     className="text-white uppercase hover:border-b-2 mt-1 "
                     id="hLink"
