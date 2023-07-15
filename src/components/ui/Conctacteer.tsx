@@ -20,12 +20,12 @@ const Conctacteer = () => {
         </p>
         <div className="contact-form-container lg:px-44">
           <form className="">
-            <div className="grid grid-cols-12 gap-y-8 lg:gap-y-0 lg:gap-x-8">
+            <div className="grid grid-cols-12 gap-y-8 lg:gap-y-0 md:gap-x-4">
               <input
                 type="text"
                 name="name"
                 placeholder="Naam*"
-                className="col-span-12 lg:col-span-4 font-poppins focus:outline-none bg-transparent h-10 text-white text-[14px] autofill:bg-[rgba]"
+                className="col-span-12 md:col-span-4 font-poppins focus:outline-none bg-transparent h-10 text-white text-[14px] autofill:bg-[rgba]"
                 required
                 style={{
                   border: "0px transparent",
@@ -36,7 +36,7 @@ const Conctacteer = () => {
                 type="email"
                 name="email"
                 placeholder="Email*"
-                className="col-span-12 lg:col-span-4 font-poppins focus:outline-none bg-transparent h-10 text-white text-[14px]"
+                className="col-span-12 md:col-span-4 font-poppins focus:outline-none bg-transparent h-10 text-white text-[14px]"
                 required
                 style={{
                   border: "0px transparent",
@@ -47,7 +47,7 @@ const Conctacteer = () => {
                 type="text"
                 name="Onderwerp"
                 placeholder="Onderwerp*"
-                className="col-span-12 lg:col-span-4 font-poppins focus:outline-none bg-transparent h-10 text-white text-[14px]"
+                className="col-span-12 md:col-span-4 font-poppins focus:outline-none bg-transparent h-10 text-white text-[14px]"
                 required
                 style={{
                   border: "0px transparent",

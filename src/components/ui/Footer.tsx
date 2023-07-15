@@ -120,7 +120,7 @@ const Footer = () => {
             </div>
           </div>
           {/* links */}
-          <div className="links col-span-6 lg:col-span-2">
+          <div className="links col-span-6 md:col-span-4 lg:col-span-2">
             <h5 className="text-white font-futura lg:text-[22px] mb-3 lg:mb-7">
               Quick Links
             </h5>
@@ -138,7 +138,7 @@ const Footer = () => {
             </p>
           </div>
           {/* hulp nodig */}
-          <div className="hulpnoding col-span-6 lg:col-span-2">
+          <div className="hulpnoding col-span-6 md:col-span-4 lg:col-span-2">
             <h5 className="text-white font-futura lg:text-[22px] mb-3 lg:mb-7">
               Help nodig?
             </h5>
@@ -156,7 +156,7 @@ const Footer = () => {
             </p>
           </div>
           {/* get in touch */}
-          <div className="getintouch col-span-12 lg:col-span-2">
+          <div className="getintouch col-span-12 md:col-span-4 lg:col-span-2">
             <h5 className="text-white font-futura lg:text-[22px] mb-4 lg:mb-7">
               Get in touch
             </h5>

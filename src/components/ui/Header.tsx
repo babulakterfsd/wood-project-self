@@ -5,18 +5,18 @@ const Header = () => {
   return (
     <section id="header" className={`${Styles.headerbg} h-screen`}>
       <div className="bg-[#121617] h-9 lg:h-11 flex justify-center  items-center">
-        <p className="text-[6px] lg:text-[.8rem] font-bold leading-3 tracking-[4.2px] uppercase text-white font-josefin">
+        <p className="text-[6px] sm:text-[10px] lg:text-[.8rem] font-bold leading-3 tracking-[4.2px] uppercase text-white font-josefin">
           VANDAAG GRATIS LEVERING IN MADAGASCAR!
         </p>
       </div>
       <div className="main-container">
         <Navbar />
         <div className="headertextcontainer h-[75vh] flex justify-center items-center">
-          <div className="text-container bg-[rgba(0,0,0,.50)] lg:bg-[rgba(0,0,0,.40)] pb-8 lg:px-36">
+          <div className="text-container bg-[rgba(0,0,0,.50)] lg:bg-[rgba(0,0,0,.40)] pb-8 px-8 md:px-16 lg:px-36">
             <h1 className="text-white text-center font-futura text-3xl lg:text-[4rem] leading-[30px] lg:leading-[147px] uppercase pt-16 lg:pt-0">
               HOUTHANDEL
             </h1>
-            <p className="mt-5 text-white text-center font-josefin text-[12px] lg:text-[1.2rem] font-light leading-[20px] lg:leading-[25px]">
+            <p className="mt-5 text-white text-center font-josefin text-[12px] md:text-[14px] lg:text-[1.2rem] font-light leading-[20px] lg:leading-[25px]">
               Oak - Thermally modified Fraké - hardwood - decking - scaffolding
               wood - Suar
             </p>
