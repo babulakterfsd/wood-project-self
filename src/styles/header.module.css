@@ -1,12 +1,12 @@
 .headerbg {
-  background: url('../../public/assets/images/banner_desktop.png');
+  background: url('../../public/assets/images/hero_web.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 @media screen and (max-width: 639.5px) {
   .headerbg {
-    background: url('../../public/assets/images/banner_mobile.png');
+    background: url('../../public/assets/images/hero_mobile.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

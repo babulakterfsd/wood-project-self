@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Styles from "../../styles/header.module.css";
 import Navbar from "./Navbar";
 
@@ -5,8 +6,8 @@ const Header = () => {
   return (
     <section id="header" className={`${Styles.headerbg} h-screen`}>
       <div className="bg-[#121617] h-9 lg:h-11 flex justify-center  items-center">
-        <p className="text-[6px] sm:text-[10px] lg:text-[.8rem] font-bold leading-3 tracking-[4.2px] uppercase text-white font-josefin">
-          VANDAAG GRATIS LEVERING IN MADAGASCAR!
+        <p className="text-[6px] sm:text-[10px] lg:text-[.8rem] font-bold leading-3 tracking-[4.2px] uppercase text-white font-josefin text-center">
+        Ga voor topkwaliteit zonder de hoofdprijs te betalen
         </p>
       </div>
       <div className="main-container">
@@ -17,13 +18,14 @@ const Header = () => {
               HOUTHANDEL
             </h1>
             <p className="mt-5 text-white text-center font-josefin text-[12px] md:text-[14px] lg:text-[1.2rem] font-light leading-[20px] lg:leading-[25px]">
-              Oak - Thermally modified Fraké - hardwood - decking - scaffolding
-              wood - Suar
+            Eik - Thermisch gemodificeerd Fraké - Hardhout - Terrasplanken - Steigerhout - Suar
             </p>
             <div className="text-center">
+              <Link href="#assortiment">
               <button className="mt-12 bg-[#FBC700] text-chocolate font-josefin text-[10px] lg:text-[12px] font-bold leading-[14.4px] tracking-[4.2px] uppercase px-9 lg:px-12 py-3 lg:py-4">
-                View Assortiment
+                 BEKIJK Assortiment
               </button>
+              </Link>
             </div>
           </div>
         </div>

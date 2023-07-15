@@ -59,19 +59,20 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#waarom" legacyBehavior>
-                  <a className="text-white uppercase hover:pb-0.5 hover:border-b-2  font-josefin font-medium text-[1.1rem]">
-                    Waarom?
-                  </a>
-                </Link>
-              </li>
-              <li>
                 <Link href="#waardaes" legacyBehavior>
                   <a className="text-white uppercase hover:pb-0.5 hover:border-b-2  font-josefin font-medium text-[1.1rem]">
                     Waardes
                   </a>
                 </Link>
               </li>
+              <li>
+                <Link href="#assortiment" legacyBehavior>
+                  <a className="text-white uppercase hover:pb-0.5 hover:border-b-2  font-josefin font-medium text-[1.1rem]">
+                    Assortiment
+                  </a>
+                </Link>
+              </li>
+
             </span>
             <li className="py-5 text-color-secondary font-bold text-3xl cursor-pointer">
               <Link href="/" legacyBehavior>
@@ -85,17 +86,18 @@ const Navbar = () => {
               </Link>
             </li>
             <span className="hidden lg:flex items-center space-x-20 border-b-[1px]">
-              <li>
-                <Link href="#assortiment" legacyBehavior>
-                  <a className="text-white uppercase hover:pb-0.5 hover:border-b-2  font-josefin font-medium text-[1.1rem]">
-                    Assortiment
-                  </a>
-                </Link>
-              </li>
+
               <li>
                 <Link href="#getintouch" legacyBehavior>
                   <a className="text-white uppercase hover:pb-0.5 hover:border-b-2 h-2  font-josefin font-medium text-[1.1rem]">
                     Over Ons
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#waarom" legacyBehavior>
+                  <a className="text-white uppercase hover:pb-0.5 hover:border-b-2  font-josefin font-medium text-[1.1rem]">
+                    Waarom?
                   </a>
                 </Link>
               </li>
@@ -141,16 +143,6 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#waarom" legacyBehavior>
-                  <a
-                    className="text-white uppercase hover:border-b-2 "
-                    id="hLink"
-                  >
-                    Waarom?
-                  </a>
-                </Link>
-              </li>
-              <li>
                 <Link href="#waardaes" legacyBehavior>
                   <a
                     className="text-white uppercase hover:border-b-2 "
@@ -167,6 +159,16 @@ const Navbar = () => {
                     id="hLink"
                   >
                     Assortiment
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#waarom" legacyBehavior>
+                  <a
+                    className="text-white uppercase hover:border-b-2 "
+                    id="hLink"
+                  >
+                    Waarom?
                   </a>
                 </Link>
               </li>

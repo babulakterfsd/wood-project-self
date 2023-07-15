@@ -1,14 +1,13 @@
 import Image from "next/image";
+import Link from "next/link";
 import call from "../../../public/assets/images/call.png";
 import fb from "../../../public/assets/images/fb.png";
 import logo from "../../../public/assets/images/houttotaal_logo.png";
 import insta from "../../../public/assets/images/insta.png";
 import location from "../../../public/assets/images/location.png";
 import mail from "../../../public/assets/images/mail.png";
-import imdb from "../../../public/assets/images/md.png";
 import twtr from "../../../public/assets/images/twtr.png";
 import utube from "../../../public/assets/images/utube.png";
-import vmo from "../../../public/assets/images/vmo.png";
 
 const Footer = () => {
   return (
@@ -29,8 +28,7 @@ const Footer = () => {
               className="object-contain cursor-pointer h-[49px] lg:h-[61px] w-[117px] lg:w-[145px]"
             />
             <p className="text-[#B5B5B5] font-josefin text-[12px] lg:leading-[15px] lg:w-[290px] text-center lg:text-left mt-2 lg:mt-0 mb-4 lg:mb-0">
-              Whether you're a homeowner embarking on a renovation project or an
-              interior designer working on a commercial space.
+            HoutTotaal, uw one-stop-shop voor hoogwaardige houtproducten, combineert uitstekende klantenservice met duurzame praktijken om elke klant tevreden te stellen.
             </p>
             <div className="flex gap-x-5">
               <Image
@@ -89,34 +87,6 @@ const Footer = () => {
                 height={13}
                 className="object-contain cursor-pointer lg:hidden"
               />
-              <Image
-                src={imdb}
-                alt="Imdb"
-                width={20}
-                height={15}
-                className="object-contain cursor-pointer hidden lg:block"
-              />
-              <Image
-                src={imdb}
-                alt="Imdb"
-                width={15}
-                height={13}
-                className="object-contain cursor-pointer lg:hidden"
-              />
-              <Image
-                src={vmo}
-                alt="Viemo"
-                width={20}
-                height={15}
-                className="object-contain cursor-pointer hidden lg:block"
-              />
-              <Image
-                src={vmo}
-                alt="Viemo"
-                width={15}
-                height={13}
-                className="object-contain cursor-pointer lg:hidden"
-              />
             </div>
           </div>
           {/* links */}
@@ -124,18 +94,26 @@ const Footer = () => {
             <h5 className="text-white font-futura lg:text-[22px] mb-3 lg:mb-7">
               Quick Links
             </h5>
+            <Link href="/">
             <p className="text-[#838381] hover:text-white cursor-pointer  font-josefin lg:text-[14px] font-bold">
               Home
             </p>
+            </Link>
+            <Link href="#assortiment">
             <p className="text-[#838381] hover:text-white cursor-pointer  font-josefin text-[14px] font-bold my-1.5 lg:my-3">
               Assortiment
             </p>
+            </Link>
+            <Link href="#waardaes">
             <p className="text-[#838381] hover:text-white cursor-pointer  font-josefin text-[14px] font-bold my-1.5 lg:my-3">
               Waardes
             </p>
+            </Link>
+            <Link href="#waarom">
             <p className="text-[#838381] hover:text-white cursor-pointer  font-josefin text-[14px] font-bold">
               Waarom
             </p>
+            </Link>
           </div>
           {/* hulp nodig */}
           <div className="hulpnoding col-span-6 md:col-span-4 lg:col-span-2">
@@ -146,13 +124,13 @@ const Footer = () => {
               Over Ons
             </p>
             <p className="text-[#838381] hover:text-white cursor-pointer  font-josefin text-[14px] font-bold my-1.5 lg:my-3">
-              Privacy Policy
+            Privacybeleid
             </p>
             <p className="text-[#838381] hover:text-white cursor-pointer  font-josefin text-[14px] font-bold my-1.5 lg:my-3">
-              Terms & Condities
+            Algemene voorwaarden
             </p>
             <p className="text-[#838381] hover:text-white cursor-pointer  font-josefin text-[14px] font-bold">
-              Cookie Policy
+            Cookiebeleid
             </p>
           </div>
           {/* get in touch */}
@@ -222,7 +200,7 @@ const Footer = () => {
       </div>
       <div className="divider h-[1px] w-full bg-[rgba(182,182,182,.74)]"></div>
       <p className="lg:mt-2 lg:pb-3 text-[#BBB] text-[12px] lg:text-base pt-1.5 pb-2 lg:py-0 text-center font-josefin font-semibold lg:leading-[36px]">
-        All Rights Reserved by HoutTotaal.nl&trade; - &copy;2023
+      Copyright © HoutTotaal.nl 2023. Alle Rechten Voorbehouden.
       </p>
     </section>
   );

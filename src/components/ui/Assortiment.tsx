@@ -17,11 +17,10 @@ const Assortiment = () => {
         <div className="heading-texts flex justify-center lg:justify-between lg:mb-12">
           <div className="text">
             <h2 className="font-futura text-[28px] lg:text-4xl lg:leading-[47px] tracking-[.55px] lg:tracking-[4.55px] uppercase text-center lg:text-left ">
-              ONS ASSORTIMENT
+            ONS ASSORTIMENT
             </h2>
             <p className="lg:mt-1 font-josefin text-[12px] lg:text-[17px] font-light leading-[20px] lg:leading-[28px] text-center lg:text-left">
-              Lorem ipsum dolor sit amet consectetur. Netus amet amet dictum
-              accumsan sed.
+            Ontdek de wereld van hout door ons uitgebreide assortiment.
             </p>
           </div>
           {/* <div className="btn-container hidden lg:block">
@@ -41,14 +40,14 @@ const Assortiment = () => {
               <p
                 className={`${Styles.overlayText} text-[#DDD] text-center font-josefin text-xs lg:text-[.9rem] font-bold leading-[20px] lg:leading-[28px] lg:tracking-[.07px] uppercase`}
               >
-                Planed Rough Beams Old oak
+                GESCHAAFD RUW BALKEN OUD EIKEN
               </p>
             </div>
             <h6 className="text-[#DDD] text-center font-josefin font-bold lg:leading-[25px] tracking-[.06px] lg:tracking-[.08px] mt-4 lg:mt-0">
-              EIKENHOUT
+            EIKENHOUT
             </h6>
             <p className="text-[#838381] text-center font-josefin text-[10px] md:text-[11.5px] lg:text-[.9rem] leading-[15px] lg:leading-[20px] tracking-[.05px] lg:tracking-[.07px]">
-              Een super belangrijk en moeilijk te verkrijgen soort hout.
+            Ons Eikenhout, met zijn opmerkelijke sterkte en schoonheid, vormt een tijdloze basis voor elke creatie.
             </p>
           </div>
           <div className="assortiment col-span-6 md:col-span-4 lg:col-span-3 flex items-center flex-col">
@@ -61,14 +60,14 @@ const Assortiment = () => {
               <p
                 className={`${Styles.overlayText} text-[#DDD] text-center font-josefin text-xs lg:text-[.9rem] font-bold leading-[20px] lg:leading-[28px] lg:tracking-[.07px] uppercase`}
               >
-                Planed Rough Beams Old oak
+                FRAKE VUREN
               </p>
             </div>
             <h6 className="text-[#DDD] text-center font-josefin font-bold leading-[25px] tracking-[.06px] lg:tracking-[.08px] mt-4 lg:mt-0">
-              THERMO HOUT
+            THERMO HOUT
             </h6>
             <p className="text-[#838381] text-center font-josefin text-[10px] md:text-[11.5px] lg:text-[.9rem] leading-[15px] lg:leading-[20px] tracking-[.05px] lg:tracking-[.07px]">
-              Een super belangrijk en moeilijk te verkrijgen soort hout.
+            Ontdek de unieke eigenschappen van ons Thermohout, waaronder het prachtige Frake en Vuren, ideaal voor duurzame en resistente projecten.
             </p>
           </div>
           <div className="assortiment col-span-6 md:col-span-4 lg:col-span-3 flex items-center flex-col">
@@ -81,14 +80,14 @@ const Assortiment = () => {
               <p
                 className={`${Styles.overlayText} text-[#DDD] text-center font-josefin text-xs lg:text-[.9rem] font-bold leading-[20px] lg:leading-[28px] lg:tracking-[.07px] uppercase`}
               >
-                Planed Rough Beams Old oak
+                STEIGERHOUT BOUWHOUT
               </p>
             </div>
             <h6 className="text-[#DDD] text-center font-josefin font-bold leading-[25px] tracking-[.06px] lg:tracking-[.08px] mt-4 lg:mt-0">
-              VUREN
+            VUREN
             </h6>
             <p className="text-[#838381] text-center font-josefin text-[10px] md:text-[11.5px] lg:text-[.9rem] leading-[15px] lg:leading-[20px] tracking-[.05px] lg:tracking-[.07px]">
-              Een super belangrijk en moeilijk te verkrijgen soort hout.
+            Ons Vurenhout, inclusief veelzijdig Steigerhout en Bouwhout, is de perfecte keuze voor constructies en designelementen.
             </p>
           </div>
           <div className="assortiment col-span-6 md:col-span-4 lg:col-span-3 flex items-center flex-col">
@@ -101,14 +100,14 @@ const Assortiment = () => {
               <p
                 className={`${Styles.overlayText} text-[#DDD] text-center font-josefin text-xs lg:text-[.9rem] font-bold leading-[20px] lg:leading-[28px] lg:tracking-[.07px] uppercase`}
               >
-                Planed Rough Beams Old oak
+                KOZIJNHOUT DIVERSE HARDHOUTSOORTEN
               </p>
             </div>
             <h6 className="text-[#DDD] text-center font-josefin font-bold leading-[25px] tracking-[.06px] lg:tracking-[.08px] mt-4 lg:mt-0">
-              HARDHOUT
+            HARDHOUT
             </h6>
             <p className="text-[#838381] text-center font-josefin text-[10px] md:text-[11.5px] lg:text-[.9rem] leading-[15px] lg:leading-[20px] tracking-[.05px] lg:tracking-[.07px]">
-              Een super belangrijk en moeilijk te verkrijgen soort hout.
+            Van robuust kozijnhout tot diverse hardhoutsoorten, ons Hardhout assortiment is ideaal voor die duurzame bouwprojecten.
             </p>
           </div>
           <div className="assortiment col-span-6 md:col-span-4 lg:col-span-3 flex items-center flex-col">
@@ -121,14 +120,14 @@ const Assortiment = () => {
               <p
                 className={`${Styles.overlayText} text-[#DDD] text-center font-josefin text-xs lg:text-[.9rem] font-bold leading-[20px] lg:leading-[28px] lg:tracking-[.07px] uppercase`}
               >
-                Planed Rough Beams Old oak
+                {/* Planed Rough Beams Old oak */}
               </p>
             </div>
             <h6 className="text-[#DDD] text-center font-josefin font-bold leading-[25px] tracking-[.06px] lg:tracking-[.08px] mt-4 lg:mt-0">
-              SUAR
+            SUAR
             </h6>
             <p className="text-[#838381] text-center font-josefin text-[10px] md:text-[11.5px] lg:text-[.9rem] leading-[15px] lg:leading-[20px] tracking-[.05px] lg:tracking-[.07px]">
-              Een super belangrijk en moeilijk te verkrijgen soort hout.
+            Suar, met zijn opvallende graantextuur en duurzaamheid, biedt een unieke en rustieke touch aan elk meubelstuk.
             </p>
           </div>
           <div className="assortiment col-span-6 md:col-span-4 lg:col-span-3 flex items-center flex-col">
@@ -141,14 +140,14 @@ const Assortiment = () => {
               <p
                 className={`${Styles.overlayText} text-[#DDD] text-center font-josefin text-xs lg:text-[.9rem] font-bold leading-[20px] lg:leading-[28px] lg:tracking-[.07px] uppercase`}
               >
-                Planed Rough Beams Old oak
+                {/* Planed Rough Beams Old oak */}
               </p>
             </div>
             <h6 className="text-[#DDD] text-center font-josefin font-bold leading-[25px] tracking-[.06px] lg:tracking-[.08px] mt-4 lg:mt-0">
-              MAHONIE
+            MAHONIE
             </h6>
             <p className="text-[#838381] text-center font-josefin text-[10px] md:text-[11.5px] lg:text-[.9rem] leading-[15px] lg:leading-[20px] tracking-[.05px] lg:tracking-[.07px]">
-              Een super belangrijk en moeilijk te verkrijgen soort hout.
+            Mahonie, met zijn prominente korrel en luxueuze uitstraling, tilt elk houtproject naar een hoger esthetisch niveau.
             </p>
           </div>
           <div className="assortiment col-span-6 md:col-span-4 lg:col-span-3 flex items-center flex-col">
@@ -161,14 +160,14 @@ const Assortiment = () => {
               <p
                 className={`${Styles.overlayText} text-[#DDD] text-center font-josefin text-xs lg:text-[.9rem] font-bold leading-[20px] lg:leading-[28px] lg:tracking-[.07px] uppercase`}
               >
-                Planed Rough Beams Old oak
+                {/* Planed Rough Beams Old oak */}
               </p>
             </div>
             <h6 className="text-[#DDD] text-center font-josefin font-bold leading-[25px] tracking-[.06px] lg:tracking-[.08px] mt-4 lg:mt-0">
-              BRAZILIAANS NOTEN
+            BRAZILIAANS NOTEN
             </h6>
             <p className="text-[#838381] text-center font-josefin text-[10px] md:text-[11.5px] lg:text-[.9rem] leading-[15px] lg:leading-[20px] tracking-[.05px] lg:tracking-[.07px]">
-              Een super belangrijk en moeilijk te verkrijgen soort hout.
+            Braziliaanse noten, met hun exotische look en extreme hardheid, zijn perfect voor het maken van meubels die opvallen.
             </p>
           </div>
           <div className="assortiment col-span-6 md:col-span-4 lg:col-span-3 flex items-center flex-col">
@@ -181,14 +180,14 @@ const Assortiment = () => {
               <p
                 className={`${Styles.overlayText} text-[#DDD] text-center font-josefin text-xs lg:text-[.9rem] font-bold leading-[20px] lg:leading-[28px] lg:tracking-[.07px] uppercase`}
               >
-                Planed Rough Beams Old oak
+                SCHROEVEN BEUGELS SLOTBOUTEN
               </p>
             </div>
             <h6 className="text-[#DDD] text-center font-josefin font-bold leading-[25px] tracking-[.06px] lg:tracking-[.08px] mt-4 lg:mt-0">
-              IJZERWAREN
+            IJZERWAREN
             </h6>
             <p className="text-[#838381] text-center font-josefin text-[10px] md:text-[11.5px] lg:text-[.9rem] leading-[15px] lg:leading-[20px] tracking-[.05px] lg:tracking-[.07px]">
-              Een super belangrijk en moeilijk te verkrijgen soort hout.
+            Maak uw project compleet met ons assortiment aan betrouwbare ijzerwaren, van stevige schroeven tot duurzame beugels en slotbouten.
             </p>
           </div>
         </div>
