@@ -17,14 +17,17 @@ const Conctacteer = () => {
       }}
     >
       <div className="main-container">
-        <h2 className="text-white text-center font-futura text-3xl lg:text-[4rem] uppercase mb-2.5 lg:mb-7">
+        <h2 className="text-white text-center font-futura text-3xl lg:text-[4rem] uppercase mb-2.5 lg:mb-7" data-aos="fade-down"
+            data-aos-duration="1000">
         CONCTACTEER ONS
         </h2>
-        <p className="text-white text-center font-josefin text-[12px] lg:text-[1.1rem] font-light leading-[20px] lg:leading-[25px] lg:px-16 mb-8 lg:mb-24">
+        <p className="text-white text-center font-josefin text-[12px] lg:text-[1.1rem] font-light leading-[20px] lg:leading-[25px] lg:px-16 mb-8 lg:mb-24" data-aos="fade-down"
+            data-aos-duration="500">
         We nodigen u uit om ons te contacteren voor al uw vragen of zorgen. Ons toegewijde team staat klaar om u te begeleiden en te ondersteunen.
         </p>
         <div className="contact-form-container lg:px-44">
-          <form className="">
+          <form className="" data-aos="fade-up"
+            data-aos-duration="1000">
             <div className="grid grid-cols-12 gap-y-8 lg:gap-y-0 md:gap-x-4">
               <input
                 type="text"

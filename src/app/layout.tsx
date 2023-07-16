@@ -1,4 +1,5 @@
 import Script from "next/script";
+import 'aos/dist/aos.css';
 import "../styles/globals.css";
 
 export const metadata = {

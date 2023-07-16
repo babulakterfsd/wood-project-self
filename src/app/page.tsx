@@ -1,4 +1,6 @@
 'use client'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import Assortiment from '@/components/ui/Assortiment';
 import Conctacteer from '@/components/ui/Conctacteer';
 import Footer from '@/components/ui/Footer';
@@ -9,14 +11,18 @@ import Waarom from '@/components/ui/Waarom';
 import { useEffect, useState } from 'react';
 
 export default function Home() {
-
   const [windowHeight, setWindowHeight] = useState(false);
+
   useEffect(() => {
     const handleScroll = () => {
       setWindowHeight(window.scrollY > 500);
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    Aos.init();
   }, []);
 
   return (
