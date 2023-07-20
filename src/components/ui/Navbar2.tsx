@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import logo from "../../../public/assets/images/houttotaal_logo.png";
 
-const Navbar = () => {
+const Navbar2 = () => {
 
   const [windowHeight, setWindowHeight] = useState(false);
   useEffect(() => {
@@ -23,7 +23,6 @@ const Navbar = () => {
     const faSolid = document.querySelector(".fa");
     if (hamburger && menu && hLink && faSolid) {
       hamburger.addEventListener("click", () => {
-        console.log("clicked");
         menu.classList.toggle("hidden");
         faSolid.classList.toggle("fa-times");
       });
@@ -56,7 +55,7 @@ const Navbar = () => {
     }
   }, []);
   return (
-    <header className={` ${windowHeight ? `hidden` : `block`} lg:mt-3 sticky top-0 z-50`}>
+    <header className="fixed top-0 z-50 bg-[#131b1d] w-full">
       <nav className=" flex justify-center items-center">
         <div>
           <ul className="hidden lg:flex items-center lg:space-x-2 2xl:space-x-4">
@@ -213,4 +212,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar2;

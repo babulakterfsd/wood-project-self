@@ -7,15 +7,16 @@ import assortiment5 from "../../../public/assets/images/uassortiment5.png";
 import assortiment6 from "../../../public/assets/images/uassortiment6.png";
 import assortiment7 from "../../../public/assets/images/uassortiment7.png";
 import assortiment8 from "../../../public/assets/images/uassortiment8.png";
+import assortiment9 from "../../../public/assets/images/uassortiment9.png";
 
 import Styles from "../../styles/assortiment.module.css";
 
 const Assortiment = () => {
   return (
-    <section id="assortiment" className="bg-[#101211] text-white py-12 lg:py-20">
+    <section id="assortiment" className="text-white py-12 lg:py-20" style={{background: 'linear-gradient(180deg, #131313 0%, #162225 48.96%, #131313 100%)'}}>
       <div className="main-container">
         <div className="heading-texts flex justify-center lg:justify-between lg:mb-12">
-          <div className="text">
+          <div className="text lg:ml-8">
             <h2 className="font-futura text-[28px] lg:text-4xl lg:leading-[47px] tracking-[.55px] lg:tracking-[4.55px] uppercase text-center lg:text-left" data-aos="fade-down"
             data-aos-duration="1000">
             ONS ASSORTIMENT
@@ -32,7 +33,7 @@ const Assortiment = () => {
           </div> */}
         </div>
         <div className="assortiment-container grid grid-cols-12 gap-x-5 md:gap-x-14 lg:gap-x-6 gap-y-10 lg:gap-y-12 mt-8 lg:mt-0">
-          <div className="assortiment col-span-6 md:col-span-4 lg:col-span-3 flex items-center flex-col" data-aos="fade-up"
+          <div className="assortiment col-span-6 md:col-span-4  flex items-center flex-col" data-aos="fade-up"
             data-aos-duration="500">
             <div className={Styles.container}>
               <Image
@@ -53,7 +54,7 @@ const Assortiment = () => {
             Ons Eikenhout, met zijn opmerkelijke sterkte en schoonheid, vormt een tijdloze basis voor elke creatie.
             </p>
           </div>
-          <div className="assortiment col-span-6 md:col-span-4 lg:col-span-3 flex items-center flex-col" data-aos="fade-up"
+          <div className="assortiment col-span-6 md:col-span-4  flex items-center flex-col" data-aos="fade-up"
             data-aos-duration="500">
             <div className={Styles.container}>
               <Image
@@ -74,7 +75,7 @@ const Assortiment = () => {
             Ontdek de unieke eigenschappen van ons Thermohout, waaronder het prachtige Frake en Vuren, ideaal voor duurzame en resistente projecten.
             </p>
           </div>
-          <div className="assortiment col-span-6 md:col-span-4 lg:col-span-3 flex items-center flex-col" data-aos="fade-up"
+          <div className="assortiment col-span-6 md:col-span-4  flex items-center flex-col" data-aos="fade-up"
             data-aos-duration="500">
             <div className={Styles.container}>
               <Image
@@ -95,7 +96,7 @@ const Assortiment = () => {
             Ons Vurenhout, inclusief veelzijdig Steigerhout en Bouwhout, is de perfecte keuze voor constructies en designelementen.
             </p>
           </div>
-          <div className="assortiment col-span-6 md:col-span-4 lg:col-span-3 flex items-center flex-col" data-aos="fade-up"
+          <div className="assortiment col-span-6 md:col-span-4  flex items-center flex-col" data-aos="fade-up"
             data-aos-duration="500">
             <div className={Styles.container}>
               <Image
@@ -116,7 +117,7 @@ const Assortiment = () => {
             Van robuust kozijnhout tot diverse hardhoutsoorten, ons Hardhout assortiment is ideaal voor die duurzame bouwprojecten.
             </p>
           </div>
-          <div className="assortiment col-span-6 md:col-span-4 lg:col-span-3 flex items-center flex-col" data-aos="fade-up"
+          <div className="assortiment col-span-6 md:col-span-4  flex items-center flex-col" data-aos="fade-up"
             data-aos-duration="500">
             <div className={Styles.container}>
               <Image
@@ -137,7 +138,7 @@ const Assortiment = () => {
             Suar, met zijn opvallende graantextuur en duurzaamheid, biedt een unieke en rustieke touch aan elk meubelstuk.
             </p>
           </div>
-          <div className="assortiment col-span-6 md:col-span-4 lg:col-span-3 flex items-center flex-col" data-aos="fade-up"
+          <div className="assortiment col-span-6 md:col-span-4  flex items-center flex-col" data-aos="fade-up"
             data-aos-duration="500">
             <div className={Styles.container}>
               <Image
@@ -158,7 +159,7 @@ const Assortiment = () => {
             Mahonie, met zijn prominente korrel en luxueuze uitstraling, tilt elk houtproject naar een hoger esthetisch niveau.
             </p>
           </div>
-          <div className="assortiment col-span-6 md:col-span-4 lg:col-span-3 flex items-center flex-col" data-aos="fade-up"
+          <div className="assortiment col-span-6 md:col-span-4  flex items-center flex-col" data-aos="fade-up"
             data-aos-duration="500">
             <div className={Styles.container}>
               <Image
@@ -179,7 +180,7 @@ const Assortiment = () => {
             Braziliaanse noten, met hun exotische look en extreme hardheid, zijn perfect voor het maken van meubels die opvallen.
             </p>
           </div>
-          <div className="assortiment col-span-6 md:col-span-4 lg:col-span-3 flex items-center flex-col" data-aos="fade-up"
+          <div className="assortiment col-span-6 md:col-span-4  flex items-center flex-col" data-aos="fade-up"
             data-aos-duration="500">
             <div className={Styles.container}>
               <Image
@@ -198,6 +199,27 @@ const Assortiment = () => {
             </h6>
             <p className="text-[#838381] text-center font-josefin text-[10px] md:text-[11.5px] lg:text-[.9rem] leading-[15px] lg:leading-[20px] tracking-[.05px] lg:tracking-[.07px]">
             Maak uw project compleet met ons assortiment aan betrouwbare ijzerwaren, van stevige schroeven tot duurzame beugels en slotbouten.
+            </p>
+          </div>
+          <div className="assortiment col-span-6 md:col-span-4  flex items-center flex-col" data-aos="fade-up"
+            data-aos-duration="500">
+            <div className={Styles.container}>
+              <Image
+                src={assortiment9}
+                alt="assortiment9"
+                className={`${Styles.cardImage} lg:w-[290px] lg:h-[201px] lg:mb-5`}
+              />
+              <p
+                className={`${Styles.overlayText} text-[#DDD] text-center font-josefin text-xs lg:text-[.9rem] font-bold leading-[20px] lg:leading-[28px] lg:tracking-[.07px] uppercase`}
+              >
+                Punto Palapa Parasol Plumas palapa
+              </p>
+            </div>
+            <h6 className="text-[#DDD] text-center font-josefin font-bold leading-[25px] tracking-[.06px] lg:tracking-[.08px] mt-4 lg:mt-0">
+            Parasols
+            </h6>
+            <p className="text-[#838381] text-center font-josefin text-[10px] md:text-[11.5px] lg:text-[.9rem] leading-[15px] lg:leading-[20px] tracking-[.05px] lg:tracking-[.07px]">
+            Geniet koel en comfortabel van de zomer met onze duurzame parasols.
             </p>
           </div>
         </div>

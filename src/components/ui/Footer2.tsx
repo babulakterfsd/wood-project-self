@@ -128,17 +128,17 @@ const Footer = () => {
                 Home
               </p>
             </Link>
-            <Link href="#assortiment">
+            <Link href="/#assortiment">
               <p className="text-chocolate hover:text-[#c4843d] cursor-pointer  font-josefin text-[14px] font-bold my-1.5 lg:my-3">
                 Assortiment
               </p>
             </Link>
-            <Link href="#waardaes">
+            <Link href="/#waardaes">
               <p className="text-chocolate hover:text-[#c4843d] cursor-pointer  font-josefin text-[14px] font-bold my-1.5 lg:my-3">
                 Waardes
               </p>
             </Link>
-            <Link href="#waarom">
+            <Link href="/#waarom">
               <p className="text-chocolate hover:text-[#c4843d] cursor-pointer  font-josefin text-[14px] font-bold">
                 Waarom
               </p>

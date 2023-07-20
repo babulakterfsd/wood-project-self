@@ -32,7 +32,7 @@ export default function Home() {
       <Assortiment />
       <Waarom />
       <Conctacteer />
-      <GetInTouch />
+      {/* <GetInTouch /> */}
       {windowHeight && (
         <button
           type="button"

@@ -1,7 +1,7 @@
 function VideoPlayer({ videoUrl } : any) {
   return (
     <div>
-      <video controls autoPlay loop muted >
+      <video controls>
         <source src={videoUrl} type="video/mp4"  />
       </video>
     </div>
