@@ -134,7 +134,7 @@ const Conctacteer = () => {
               />
               <input
                 type="text"
-                name="business_name"
+                name="businessName"
                 placeholder="Bedrijf"
                 value={business_name}
                 onChange={(e) => setBusinessName(e.target.value)}

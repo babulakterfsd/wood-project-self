@@ -9,6 +9,7 @@ import mongoClientPromise from '@/utils/mongo';
 const POST_BODY_SCHEMA = z.object({
   firstName: z.string().nonempty(),
   lastName: z.string().nonempty(),
+  businessName: z.string().nullable(),
 
   telephoneNumber: z.string().regex(/^[0-9]*$/),
   emailAddress: z.string().email(),
@@ -35,6 +36,7 @@ export async function POST(req: Request) {
   const {
     firstName,
     lastName,
+    businessName,
     telephoneNumber,
     emailAddress,
     company,
@@ -51,10 +53,12 @@ export async function POST(req: Request) {
   });
 
   await axios.post(ENV.BACKEND_API_URL + '/contact_form', {
+    project_id: 'ae61ba86-7953-4a24-8b35-24ee0d1e1e72',
     first_name: firstName,
     last_name: lastName,
     email: emailAddress,
     phone_number: telephoneNumber,
+    business_name: businessName || false,
     user_message: message,
   });
 

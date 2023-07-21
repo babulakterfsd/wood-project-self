@@ -6,8 +6,8 @@ const Terms = () => {
 
   return (
     <section id='terms' className='bg-[#e9e6d6]'>
-       <div className='bg-[#4D3525] h-[45px] flex justify-center items-center relative'>
-         <h4 className='text-white text-[.75rem] font-josefin font-bold leading-[14.2px] tracking-[4.2px] uppercase text-center'>VANDAAG GRATIS LEVERING IN MADAGASCAR!</h4>
+       <div className='bg-[#121617] h-[45px] flex justify-center items-center relative'>
+         <h4 className='text-white text-[.75rem] font-josefin font-bold leading-[14.2px] tracking-[4.2px] uppercase text-center'>GA VOOR GOED HOUT ZONDER DE HOOFDPRIJS TE BETALEN</h4>
        </div>
         <Navbar3/>
         <div className="main-container pt-36 pb-24 lg:py-32">

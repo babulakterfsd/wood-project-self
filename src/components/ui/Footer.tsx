@@ -149,9 +149,6 @@ const Footer = () => {
             <h5 className="text-chocolate font-futura lg:text-[22px] mb-3 lg:mb-7 opacity-0">
               Help nodig?
             </h5>
-            <p className="text-chocolate hover:text-[#c4843d] cursor-pointer  font-josefin text-[14px] font-bold">
-              Over Ons
-            </p>
             <p className="text-chocolate hover:text-[#c4843d] cursor-pointer  font-josefin text-[14px] font-bold my-1.5 lg:my-3">
               <Link href="/terms">
               Algemene voorwaarden
@@ -172,9 +169,9 @@ const Footer = () => {
               <Image
                 src={location}
                 alt="Location"
-                width={30}
-                height={15}
-                className="hidden object-contain -mt-10 lg:block"
+                width={16}
+                height={10}
+                className="hidden object-contain -mt-16 lg:block"
               />
               <Image
                 src={location}
@@ -184,7 +181,9 @@ const Footer = () => {
                 className="object-contain -mt-16 sm:mt-1 lg:hidden"
               />
               <p className="text-chocolate   font-josefin font-medium lg:leading-[25px]">
-                Lageweg 35K2222AG Katwijk aan Zee The Netherlands
+              Lageweg 35K <br />
+              2222AG Katwijk aan Zee
+              <br /> The Netherlands
               </p>
             </div>
             <div className="text-chocolate font-josefin text-[14px] font-medium my-1.5 lg:my-3 flex gap-x-2.5">
